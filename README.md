@@ -1,6 +1,6 @@
 # freelance-management-system
 frontend - angular <br>
-backend -  django
+backend -  django  <br>
 database - mysql
 
 about project : functionalites of this project will be  similar to freelancing websites like upwork , freelancer.
