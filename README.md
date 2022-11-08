@@ -44,3 +44,32 @@ about project : functionalites of this project will be  similar to freelancing w
 <h2>7)  edit profile page </h2>
 
 <img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-34-20.png" alt="no image">
+
+<h1> client pages </h1>
+
+
+<h2>2) client home page </h2>
+
+<img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-35-49.png" alt="no image">
+
+<h2>3) post a job page </h2>
+
+<img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-35-52.png" alt="no image">
+
+<h2>4) posted jobs   page </h2>
+
+<img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-36-06.png" alt="no image">
+
+
+<h2>5) payments  page </h2>
+
+<img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-34-14.png" alt="no image">
+
+
+<h2>6)  contract details  page </h2>
+
+<img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-36-32.png" alt="no image">
+
+<h2>7)  edit profile page </h2>
+
+<img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-36-19.png" alt="no image">
