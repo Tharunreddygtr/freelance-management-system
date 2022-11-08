@@ -75,4 +75,4 @@ about project : functionalites of this project will be  similar to freelancing w
 <img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-36-19.png" alt="no image">
 
 
-<h2 style="text-align:center">--------------The END --------------------------------- </h2>
+<h2 style="background-color:blue;">--------------The END --------------------------------- </h2>
