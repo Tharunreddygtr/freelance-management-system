@@ -1,0 +1,42 @@
+
+<!--navigation-->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black" >
+                GTR
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href=""  routerLink="/client_login_page"><i class="fa fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll"  routerLink="/client_login_page/post_a_job"><i class="fa fa-address-card"></i>Post a Job</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll"  routerLink="/client_login_page/freelancer_proposals"><i class="fa fa-check"></i>Your Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" routerLink="/client_login_page/fee_payment_details"><i class="fa fa-credit-card"></i>Fee Payment Details </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" routerLink="/client_login_page/ccontract_details"><i class="fa fa-file-text-o"></i> Your Contract Details </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" routerLink="/client_login_page/edit_profilec"><i class="fa fa-edit"></i>Edit your profile </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" (click)="logout()"> <i class="fa fa-sign-out"></i>Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="navbottom"></div>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+form {
+    width: 35%;
+    margin-left: 30%;
+    border:2px solid black; 
+    border-radius: 5px;
+    padding: 10px;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.main{
+    background-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    text-transform: uppercase;
+}

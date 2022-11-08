@@ -1,0 +1,44 @@
+<app-cheader></app-cheader>
+<h4 style="text-transform: uppercase;text-align:center;">Your Payment's details</h4>
+<div class="nodata" *ngIf="arr==''">
+
+    <img src="https://cdn.dribbble.com/users/2394319/screenshots/4773525/media/3abebd7f14032c54245cb54cf48d17a3.png?compress=1&resize=800x600&vertical=top" alt="">
+    <h4>No payment details found </h4> <br>
+    <h5>To post a job now <a href="" routerLink="../post_a_job">click here</a> </h5>
+    
+</div>
+<ul>
+    <h5 style="text-transform: uppercase;text-align:center;">Total Spends : $ {{getTotal()}}</h5 >
+    <li *ngFor="let x of arr">
+
+
+        <table>
+            <tr>
+                <th>PAYMENT ID : </th>
+                <th class="tabledata">{{ x.id}}</th>
+
+            </tr>
+            <tr>
+                <td>CONTRACT ID :</td>
+                <td class="tabledata">{{x.contract_id}}</td>
+            </tr>
+            <tr>
+                <td>HANDLING FEE : </td>
+                <td class="tabledata">$ {{ x.handling_fee.toFixed(2)}}</td>
+
+            </tr>
+            <tr>
+                <td>TAX :</td>
+                <td class="tabledata">$ {{ x.tax.toFixed(2)}}</td>
+            </tr>
+            <tr>
+                <td>TOTAL PAYMENT  :</td>
+                <td class="tabledata">$ {{ x.total_payment.toFixed(2)}}</td>
+
+            </tr>
+        </table>
+    </li>
+</ul>
+
+
+<app-cfooter></app-cfooter>

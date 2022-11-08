@@ -1,0 +1,52 @@
+
+
+.navbar{
+    background-color: black;
+    /* background-position: fixed; */
+    /* display: block; */
+    position: fixed;
+    width:101%;
+    justify-content: space-between;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    border-bottom: 2px solid white;
+}
+
+.smart-scroll{
+    position: relative;
+    top: 0;
+    left: -15px;
+    right: -10px;
+    justify-content: space-between;
+
+
+
+}
+
+.heading-black{
+    font-size: 25px;
+    color:aquamarine;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#navbarCollapse{
+    float:right;
+    margin-left: 28rem;
+    justify-content: space-between;
+}
+
+ul li a{
+    margin-left: 30px;
+}
+
+.navbottom{
+    padding-top: 72px;
+}
+
+::ng-deep .background-red {
+    color: black;
+    background-color: aquamarine;
+  
+  }
