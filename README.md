@@ -38,3 +38,7 @@ about project : functionalites of this project will be  similar to freelancing w
 <h2>  contract details  page </h2>
 
 <img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-34-17.png" alt="no image">
+
+<h2>  edit profile page </h2>
+
+<img src="angular/angular-first/src/assets/Screenshot from 2022-11-08 14-34-20.png" alt="no image">
